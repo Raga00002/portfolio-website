@@ -60,7 +60,10 @@ navItems.forEach(item => {
   item.addEventListener('click', (e) => {
     e.preventDefault(); // Prevent default anchor behavior
     const selected = item.getAttribute('href').slice(1); // Remove the leading #
-    console.log(selected);
+    navItems.forEach(item => {
+      item.removeAttribute("id");
+    });
+    item.setAttribute("id", "navColor");
     fetch(`${selected}.html`)
       .then(response => {
         if (!response.ok) throw new Error("Page not found");

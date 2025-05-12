@@ -84,3 +84,13 @@ body .footer{
     display: flex;
     gap: 20px;
 }
+
+
+.animatedText{
+    color: transparent;
+    -webkit-text-stroke: 0.7px lime;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+
