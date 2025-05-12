@@ -1,0 +1,11 @@
+
+.firstLine{
+    display: flex;
+    gap: 10px;
+}
+.firstLine i{
+    color: lime;
+}
+.firstLine h4{
+    color: lime;
+}

@@ -1,0 +1,10 @@
+/* Rectangular button with Colored background */
+.ColoredRectangularButton{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: lime;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}

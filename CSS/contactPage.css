@@ -1,0 +1,22 @@
+.row{
+    display: flex;
+    gap: 50px;
+}
+input{
+    width: 300px;
+    outline: none;
+    padding: 10px 20px;
+    border: 2px solid lime;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: transparent;
+}
+textarea{
+    border: 2px solid lime;
+    border-radius: 5px;
+    background-color: transparent;
+    color: whitesmoke;
+    padding: 10px;
+    width: 650px;
+    height: 200px;
+}

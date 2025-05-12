@@ -1,0 +1,14 @@
+/* Rectangular button with transparent background */
+.transparentRectangularButton{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: lime;
+    border: 2px solid lime;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.transparentRectangularButton:hover{
+    color: black;
+    background-color: lime;
+}
