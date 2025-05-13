@@ -1,25 +1,6 @@
-import  { educationJS }  from "./education.js";
+import { educationJS }  from "./education.js";
+import { skillsJS } from "./skills.js";
 
-const codingSkills = [
-  {
-    skillName: 'HTML',
-    skillKnowledge: '70%'
-  },
-  {
-    skillName: 'CSS',
-    skillKnowledge: '50%'
-  },
-];
-const technicalSkills = [
-  {
-    skillName: 'Embedded',
-    skillKnowledge: '70%',
-  },
-  {
-    skillName: 'PCB',
-    skillKnowledge: '40%',
-  },
-];
 
 const companyDetails = [
   {
@@ -60,57 +41,7 @@ navItems.forEach(item => {
         mainContent.innerHTML = html;
         
         
-        const coding = document.querySelector('.coding');
-        const technical = document.querySelector('.technical');
-        if(coding!=null){
-          codingSkills.forEach(function(elem){
-            let divParent = document.createElement('div');
-            let divChild1 = document.createElement('div');
-            let divChild2 = document.createElement('div');
-            let first_h4 = document.createElement('h4');
-            let second_h4 = document.createElement('h4');
-            first_h4.innerText = elem.skillName;
-            second_h4.innerText = elem.skillKnowledge;
-            let divGrandChild = document.createElement('div');
-            divGrandChild.classList.add('bar1');
-            divGrandChild.classList.add('bar');
-            divChild2.classList.add('progressBarSkillsDivision');
-            divChild1.classList.add('headingSkillsDivision');
-            divParent.classList.add('column');
-            divParent.classList.add('gap5');
-            divChild2.appendChild(divGrandChild);
-            divChild1.appendChild(first_h4);
-            divChild1.appendChild(second_h4);
-            divParent.appendChild(divChild1);
-            divParent.appendChild(divChild2);
-            coding.append(divParent);
-          })
-        }
-        if(technical!=null){
-          technicalSkills.forEach(function(elem){
-            let divParent = document.createElement('div');
-            let divChild1 = document.createElement('div');
-            let divChild2 = document.createElement('div');
-            let first_h4 = document.createElement('h4');
-            let second_h4 = document.createElement('h4');
-            first_h4.innerText = elem.skillName;
-            second_h4.innerText = elem.skillKnowledge;
-            let divGrandChild = document.createElement('div');
-            divGrandChild.classList.add('bar1');
-            divGrandChild.classList.add('bar');
-            divChild2.classList.add('progressBarSkillsDivision');
-            divChild1.classList.add('headingSkillsDivision');
-            divParent.classList.add('column');
-            divParent.classList.add('gap5');
-            divChild2.appendChild(divGrandChild);
-            divChild1.appendChild(first_h4);
-            divChild1.appendChild(second_h4);
-            divParent.appendChild(divChild1);
-            divParent.appendChild(divChild2);
-            technical.append(divParent);
-          })
-        }
-        
+        skillsJS();
         educationJS();
         
         // 

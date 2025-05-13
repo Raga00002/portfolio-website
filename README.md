@@ -3,4 +3,4 @@ HTML,CSS,JS First Project.
 <br>
 Author - Raghav Goel
 <br>
-Updated Education Page Code
+Updated Skills Page
