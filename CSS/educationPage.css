@@ -1,11 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px; 
+  border: 2px solid lime;
+  border-style: dashed;
+  border-radius: 5px;
+  align-items: center;
+  padding: 10px;
+}
 
-.firstLine{
-    display: flex;
-    gap: 10px;
-}
-.firstLine i{
-    color: lime;
-}
-.firstLine h4{
-    color: lime;
+.grid-item {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 14px;
+  font-weight: bolder;
+  font-style: oblique;
 }

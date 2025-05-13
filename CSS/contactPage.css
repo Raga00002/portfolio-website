@@ -1,7 +1,4 @@
-.row{
-    display: flex;
-    gap: 50px;
-}
+
 input{
     width: 300px;
     outline: none;

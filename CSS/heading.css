@@ -2,11 +2,12 @@
 .highlightedLimeText{
     font-size: 50px;
     color: whitesmoke;
+    font-weight: bolder;
+    font-style: oblique;
 }
 .highlightedLimeText span{
     color: lime;
 }
-
 
 
 h3{

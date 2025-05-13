@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio - 1</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/heading.css">
@@ -15,27 +18,37 @@
     <link rel="stylesheet" href="../CSS/educationPage.css">
     <link rel="stylesheet" href="../CSS/skillsPage.css">
     <link rel="stylesheet" href="../CSS/contactPage.css">
+    <link rel="stylesheet" href="../CSS/Page.css">
+    <link rel="stylesheet" href="../CSS/rowColumn.css">
+    <link rel="stylesheet" href="../CSS/BoxDivision.css">
+    <link rel="stylesheet" href="../CSS/Gap.css">
 </head>
+
 <body>
     <div id="main">
         <nav>
             <div class="name">
                 <h1>Raghav.</h1>
             </div>
-            <div class="link">
-                <a href="#home" id="navColor">Home</a>
-                <a href="#about">About</a>
-                <a href="#education">Education</a>
-                <a href="#skills">Skills</a>
-                <a href="#contact">Contact</a>
-            </div>
+            <ul class="link">
+                <li data-content="home" id="navColor">Home</li>
+                <li data-content="about">About</li>
+                <li data-content="education">Education</li>
+                <li data-content="skills">Skills</li>
+                <li data-content="contact">Contact</li>
+            </ul>
         </nav>
         <div class="mainContent">
             <div class="content">
                 <div class="left">
                     <h1 class="highlightedLimeText">Hi, I'm <span>Raghav Goel</span></h1>
                     <h2 class="animatedText">Embedded Engineer</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero magni eveniet aspernatur aperiam natus pariatur nulla veritatis recusandae architecto? Officia, repellat. Praesentium voluptate error earum eius eveniet porro, necessitatibus id libero et aut ducimus laudantium delectus rerum repellat corporis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero magni eveniet aspernatur
+                        aperiam
+                        natus pariatur nulla veritatis recusandae architecto? Officia, repellat. Praesentium voluptate
+                        error earum
+                        eius eveniet porro, necessitatibus id libero et aut ducimus laudantium delectus rerum repellat
+                        corporis.</p>
                     <div class="buttons">
                         <button class="ColoredRectangularButton">Hire me</button>
                         <button class="transparentRectangularButton">Let's talk</button>
@@ -47,13 +60,17 @@
             </div>
             <div class="footer">
                 <div class="icons">
-                    <button title="Facebook" class="transparentCircularButton"><i class="fa-brands fa-facebook-f"></i></button>
-                    <button title="Linkedin" class="transparentCircularButton"><i class="fa-brands fa-linkedin"></i></button>
-                    <button title="Gmail" class="transparentCircularButton"><i class="fa-solid fa-envelope"></i></button>
+                    <button title="Facebook" class="transparentCircularButton"><i
+                            class="fa-brands fa-facebook-f"></i></button>
+                    <button title="Linkedin" class="transparentCircularButton"><i
+                            class="fa-brands fa-linkedin"></i></button>
+                    <button title="Gmail" class="transparentCircularButton"><i
+                            class="fa-solid fa-envelope"></i></button>
                 </div>
             </div>
         </div>
     </div>
-        <script src="../JS/script.js"></script>
+    <script src="../JS/script.js" type="module"></script>
 </body>
+
 </html>

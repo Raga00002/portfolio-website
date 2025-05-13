@@ -34,12 +34,15 @@ nav .link{
     display: flex;
     gap: 50px;
 }
-.link a{
+.link li{
+    text-decoration: none;
     color: whitesmoke;
     font-size: large;
     font-weight: bold;
+    list-style-type: none;
+    cursor: pointer;
 }
-.link a:hover{
+.link li:hover{
     color: lime;
 }
 
