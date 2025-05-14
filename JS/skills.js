@@ -56,8 +56,8 @@ export function skillsJS() {
             first_h4.innerText = elem.skillName;
             second_h4.innerText = elem.skillKnowledge;
             let divGrandChild = document.createElement('div');
-            divGrandChild.classList.add('bar1');
             divGrandChild.classList.add('bar');
+            divGrandChild.style.width = elem.skillKnowledge;
             divChild2.classList.add('progressBarSkillsDivision');
             divChild1.classList.add('headingSkillsDivision');
             divParent.classList.add('column');
@@ -89,8 +89,8 @@ export function skillsJS() {
             first_h4.innerText = elem.skillName;
             second_h4.innerText = elem.skillKnowledge;
             let divGrandChild = document.createElement('div');
-            divGrandChild.classList.add('bar1');
             divGrandChild.classList.add('bar');
+            divGrandChild.style.width = elem.skillKnowledge;
             divChild2.classList.add('progressBarSkillsDivision');
             divChild1.classList.add('headingSkillsDivision');
             divParent.classList.add('column');
