@@ -7,6 +7,7 @@
     border: 2px solid lime;
     border-radius: 5px;
     font-weight: bold;
+    width: 120px;
 }
 .transparentRectangularButton:hover{
     color: black;
