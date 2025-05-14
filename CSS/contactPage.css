@@ -28,6 +28,9 @@
 
 @media screen and (max-width: 600px) {
     textarea {
-        width: 300px;
+        width: 200px;
+    }
+    input {
+        width: 200px;
     }
 }

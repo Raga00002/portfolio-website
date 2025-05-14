@@ -1,7 +1,14 @@
-.Page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 0px 100px;
+@media screen and (max-width: 1400px) {
+    .Page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0px 100px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .Page {
+        padding: 0px 10px;
+    }
 }
