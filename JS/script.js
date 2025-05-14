@@ -32,7 +32,7 @@ navItems.forEach(item => {
       item.removeAttribute("id");
     });
     item.setAttribute("id", "navColor");
-    fetch(`${selected}.html`)
+    fetch(`./HTML/${selected}.html`)
       .then(response => {
         if (!response.ok) throw new Error("Page not found");
         return response.text();
