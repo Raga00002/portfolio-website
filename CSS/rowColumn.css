@@ -1,9 +1,18 @@
-.column{
-    display: flex;
-    flex-direction: column;
-}
+@media screen and (max-width: 1400px) {
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
 
-.row{
-    display: flex;
-    gap: 50px;
+    .row {
+        display: flex;
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }

@@ -1,16 +1,23 @@
 /* highlight the text after span */
-.highlightedLimeText{
-    font-size: 50px;
-    color: whitesmoke;
-    font-weight: bolder;
-    font-style: oblique;
-}
-.highlightedLimeText span{
-    color: lime;
-}
+@media screen and (max-width: 1400px) {
+    .highlightedLimeText {
+        font-size: 50px;
+        color: whitesmoke;
+        font-weight: bolder;
+        font-style: oblique;
+    }
+
+    .highlightedLimeText span {
+        color: lime;
+    }
 
 
-h3{
-    font-size: 30px;
+    h3 {
+        font-size: 30px;
+    }
 }
-
+@media screen and (max-width: 600px) {
+    .highlightedLimeText {
+        font-size: 30px;
+    }
+}
