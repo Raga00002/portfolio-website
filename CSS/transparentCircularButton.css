@@ -1,14 +1,16 @@
 /* Circular button with transparent background */
-.transparentCircularButton{
-    cursor: pointer;
-    border: 2px solid lime;
-    background-color: transparent;
-    color: lime;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-}
-.transparentCircularButton:hover{
-    background-color: lime;
-    color: black;
+@media screen and (max-width : 1400px) {
+    .transparentCircularButton {
+        cursor: pointer;
+        border: 2px solid lime;
+        background-color: transparent;
+        color: lime;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .transparentCircularButton:hover {
+        background-color: lime;
+        color: black;
+    }
 }

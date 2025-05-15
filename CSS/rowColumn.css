@@ -6,7 +6,7 @@
 
     .row {
         display: flex;
-        gap: 50px;
+        gap: 4vw;
     }
 }
 @media screen and (max-width: 600px) {

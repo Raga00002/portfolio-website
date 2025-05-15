@@ -21,8 +21,14 @@ const companyDetails = [
 
 
 
-const navItems = document.querySelectorAll('nav .link li');
+const navItems = document.querySelectorAll('.link li');
 const mainContent = document.querySelector('.mainContent');
+const barToggle=  document.querySelector('.onTap');
+
+barToggle.addEventListener('click',(e)=>{
+  let rightScreen = document.querySelector('.rightScreen');
+  rightScreen.classList.toggle('visibilityIcon');
+});
 
 navItems.forEach(item => {
   item.addEventListener('click', (e) => {

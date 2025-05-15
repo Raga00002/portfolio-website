@@ -27,39 +27,57 @@
 
 <body>
     <div id="main">
-        <nav>
-            <div class="name">
-                <h1>Raghav.</h1>
-            </div>
-            <ul class="link">
-                <li data-content="home" id="navColor">Home</li>
-                <li data-content="about">About</li>
-                <li data-content="education">Education</li>
-                <li data-content="skills">Skills</li>
-                <li data-content="contact">Contact</li>
-            </ul>
-        </nav>
-        <div class="mainContent">
-            <div class="content">
-                <div class="left">
-                    <h1 class="highlightedLimeText">Hi, I'm <span>Raghav Goel</span></h1>
-                    <h2 class="animatedText">Embedded Engineer</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero magni eveniet aspernatur
-                        aperiam
-                        natus pariatur nulla veritatis recusandae architecto? Officia, repellat. Praesentium voluptate
-                        error earum
-                        eius eveniet porro, necessitatibus id libero et aut ducimus laudantium delectus rerum repellat
-                        corporis.</p>
-                    <div class="buttons">
-                        <button class="ColoredRectangularButton">Hire me</button>
-                        <button class="transparentRectangularButton">Let's talk</button>
-                    </div>
+        <div id="desktopNav">
+            <nav>
+                <div class="name">
+                    <h1>Raghav.</h1>
                 </div>
-                <div class="right">
-                    <img src="https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp" alt="">
+                <ul class="link">
+                    <li data-content="home" id="navColor">Home</li>
+                    <li data-content="about">About</li>
+                    <li data-content="education">Education</li>
+                    <li data-content="skills">Skills</li>
+                    <li data-content="contact">Contact</li>
+                </ul>
+            </nav>
+        </div>
+        <div id="MobileNav">
+            <nav>
+                <div class="name">
+                    <h1>Raghav.</h1>
                 </div>
+                <i class="fa-solid fa-bars onTap"></i>
+            </nav>
+            <!-- <div class="rightScreen"> -->
+                <ul class="link rightScreen">
+                    <li data-content="home" id="navColor">Home</li>
+                    <li data-content="about">About</li>
+                    <li data-content="education">Education</li>
+                    <li data-content="skills">Skills</li>
+                    <li data-content="contact">Contact</li>
+                </ul>
             </div>
-            <div class="footer">
+        </div>
+    </div>
+
+    <div class="mainContent">
+        <div class="content">
+            <div class="column gap20">
+                <h1 class="highlightedLimeText">Hi, I'm <span>Raghav Goel</span></h1>
+                <h2 class="animatedText">Embedded Engineer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero magni eveniet
+                    aspernatur
+                    aperiam
+                    natus pariatur nulla veritatis recusandae architecto? Officia, repellat. Praesentium
+                    voluptate
+                    error earum
+                    eius eveniet porro, necessitatibus id libero et aut ducimus laudantium delectus rerum
+                    repellat
+                    corporis.</p>
+                <div class="buttons row">
+                    <button class="ColoredRectangularButton">Hire me</button>
+                    <button class="transparentRectangularButton">Let's talk</button>
+                </div>
                 <div class="icons">
                     <button title="Facebook" class="transparentCircularButton"><i
                             class="fa-brands fa-facebook-f"></i></button>
@@ -69,7 +87,11 @@
                             class="fa-solid fa-envelope"></i></button>
                 </div>
             </div>
+            <div class="right">
+                <img src="https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp" alt="">
+            </div>
         </div>
+    </div>
     </div>
     <script src="./JS/script.js" type="module"></script>
 </body>
