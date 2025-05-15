@@ -30,7 +30,8 @@ body {
         align-items: center;
         padding: 20px 100px;
         justify-content: space-between;
-        background-color: transparent;
+        background-color: black;
+        z-index: 9999;
     }
 
     body nav .name {
@@ -119,7 +120,7 @@ body {
         gap: 20px;
         right: 0px;
         width: 100%;
-        padding: 0 20px;
+        padding: 15px 20px;
         z-index: 99;
     }
     .visibilityIcon{
