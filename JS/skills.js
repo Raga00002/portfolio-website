@@ -5,17 +5,25 @@ const codingSkills = [
     },
     {
         skillName: 'CSS',
+        skillKnowledge: '60%'
+    },
+    {
+        skillName: 'JavaScript',
         skillKnowledge: '50%'
     },
 ];
 const technicalSkills = [
     {
-        skillName: 'Embedded',
+        skillName: 'Embedded Systems Design ',
         skillKnowledge: '70%',
     },
     {
-        skillName: 'PCB',
-        skillKnowledge: '40%',
+        skillName: 'PCB Designing',
+        skillKnowledge: '50%',
+    },
+    {
+        skillName: 'IOT',
+        skillKnowledge: '60%',
     },
 ];
 

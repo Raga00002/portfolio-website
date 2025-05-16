@@ -1,3 +1,5 @@
+// import { ContactPageJS } from "./contactPage.js";
+
 const homePageDetails =
 {
     mainHeadingH1_Text: `Hi, I'm <span>Raghav Goel</span>`,
@@ -111,14 +113,15 @@ export function HomePageJS() {
 
         divRectangularButton_Button2.addEventListener(
             'click', (e) => {
-                const mainContent = document.querySelector('.mainContent');
-                fetch(`./HTML/contact.html`)
-                    .then(response => {
-                        if (!response.ok) throw new Error("Page not found");
-                        return response.text();
-                    }).then(html => {
-                        mainContent.innerHTML = html;
-                    })
+                // const mainContent = document.querySelector('.mainContent');
+                // fetch(`./HTML/contact.html`)
+                //     .then(response => {
+                //         if (!response.ok) throw new Error("Page not found");
+                //         return response.text();
+                //     }).then(html => {
+                //         mainContent.innerHTML = html;
+                //     })
+                // ContactPageJS();
             }
         )
 

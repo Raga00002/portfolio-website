@@ -1,3 +1,4 @@
+import { ContactPageJS } from "./contactPage.js";
 import { educationJS }  from "./education.js";
 import { HomePageJS } from "./homePage.js";
 import { skillsJS } from "./skills.js";
@@ -20,6 +21,7 @@ const companyDetails = [
   },
 ];
 
+HomePageJS();
 
 
 const navItems = document.querySelectorAll('.link li');
@@ -50,8 +52,22 @@ navItems.forEach(item => {
         HomePageJS();
         skillsJS();
         educationJS();
-        
-        // 
+        ContactPageJS();
+      })
+      .catch(error => {
+        mainContent.innerHTML = "<p>Content not found</p>";
+        console.error(error);
+      });
+  });
+});
+
+
+
+
+
+
+
+ // 
         // const experience = document.querySelector('.experience');
         
         // if(experience!=null){
@@ -84,14 +100,3 @@ navItems.forEach(item => {
         //     experience.append(divMainParent);
         //   })
         // }
-          
-      })
-      .catch(error => {
-        mainContent.innerHTML = "<p>Content not found</p>";
-        console.error(error);
-      });
-  });
-});
-
-
-
