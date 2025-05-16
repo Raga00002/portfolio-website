@@ -1,4 +1,5 @@
 import { educationJS }  from "./education.js";
+import { HomePageJS } from "./homePage.js";
 import { skillsJS } from "./skills.js";
 
 
@@ -46,7 +47,7 @@ navItems.forEach(item => {
       .then(html => {
         mainContent.innerHTML = html;
         
-        
+        HomePageJS();
         skillsJS();
         educationJS();
         

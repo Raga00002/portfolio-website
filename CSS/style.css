@@ -86,9 +86,9 @@ body {
         margin-top: 40px;
     }
 
-    .content .right img {
-        height: auto;
-        width: 32vw;
+    .right img {
+        height: 450px;
+        width: 340px;
     }
 
 }
