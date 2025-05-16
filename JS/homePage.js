@@ -1,4 +1,4 @@
-// import { ContactPageJS } from "./contactPage.js";
+import { ContactPageJS } from "./contactPage.js";
 
 const homePageDetails =
 {
@@ -121,10 +121,10 @@ export function HomePageJS() {
                 //     }).then(html => {
                 //         mainContent.innerHTML = html;
                 //     })
-                // ContactPageJS();
+                let home = document.querySelector('.home');
+                home.innerHTML = `<div class='contact Page'> </div>`;
+                ContactPageJS();
             }
         )
-
-
     }
 };
