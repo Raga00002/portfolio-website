@@ -40,7 +40,7 @@ navItems.forEach(item => {
     });
     item.setAttribute("id", "navColor");
     fetch(`./HTML/${selected}.html`)
-      .then(response => {
+      .then(response => { 
         if (!response.ok) throw new Error("Page not found");
         return response.text();
       })
